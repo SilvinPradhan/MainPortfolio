@@ -12,3 +12,18 @@ export const homeObjOne = {
   start: "",
   alt: "Image",
 };
+
+export const homeObjTwo = {
+  primary: false,
+  lightBg: true,
+  imgStart: "start",
+  lightTextDesc: false,
+  lightTopline: false,
+  buttonLabel: "Read More",
+  description: " An Odyssey of a Developer/Designer",
+  headLine: "Silvin Pradhan",
+  lightText: "false",
+  topLine: "Site Under Construction",
+  start: "true",
+  alt: "Image",
+};
