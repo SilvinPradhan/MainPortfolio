@@ -65,6 +65,8 @@ export const NavMenu = styled.ul`
   align-items: center;
   list-style: none;
   text-align: center;
+  text-decoration: none;
+  list-style: none;
 
   @media screen and (max-width: 960px) {
     display: flex;
@@ -82,7 +84,8 @@ export const NavMenu = styled.ul`
 
 export const NavItem = styled.li`
   height: 100%;
-
+  text-decoration: none;
+  list-style: none;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -104,6 +107,7 @@ export const NavItem = styled.li`
 export const NavLinks = styled(Link)`
   color: #fff;
   display: flex;
+  list-style: none;
   align-items: center;
   text-decoration: none;
   cursor: pointer;
@@ -149,6 +153,7 @@ export const ProfilePic = styled.img`
 export const NavItemBtn = styled.li`
   @media screen and (max-width: 960px) {
     display: flex;
+    list-style: none;
     justify-content: center;
     align-items: center;
     width: 100%;

@@ -150,18 +150,18 @@ export const SocialIcon = styled(FaMagento)`
 
 export const WebsiteRights = styled.small`
   color: #fff;
-  margin-bottom: 16px;
+  font-size: 14px;
+  margin-bottom: 15px;
 `;
 
 export const SocialIcons = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 40px;
+  width: 240px;
 `;
 
 export const SocialIconLink = styled.a`
   color: #fff;
-  justify-content: space-between;
   font-size: 24px;
 `;
